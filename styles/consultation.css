@@ -1,0 +1,81 @@
+/* Container styles for consultation section */
+.container-consultation {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add some padding to the sides */
+  }
+  
+  .consultation {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .consultation h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .consultation p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .consultation-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .consultation-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .consultation-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .consultation-form input,
+  .consultation-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .consultation-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2196F3; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consultation-form button:hover {
+    background-color: #0b7dda; /* Darker Blue */
+  }
+  
+  .consultation-result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .consultation-result ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .consultation-result ul li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .consultation-form {
+      padding: 0 20px;
+    }
+  }
+  

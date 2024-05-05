@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculators - Financial Advisory Service</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/calculator.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="container">
+          <h1 class="logo">Financial Advisory Service</h1>
+          <div class="menu-toggle">&#9776;</div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Calculators.html">Calculator</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./FreeConsultation.html">Free Consultation</a></li>
+          </ul>
+        </div>
+      </nav>
+</header>
+
+<section class="calculator">
+  <div class="container-calculator">
+    <h2>Loan Calculator</h2>
+    <div class="calculator-form">
+      <div class="form-group">
+        <label for="loanAmount">Loan Amount ($):</label>
+        <input type="number" id="loanAmount" min="0" required>
+      </div>
+      <div class="form-group">
+        <label for="interestRate">Annual Interest Rate (%):</label>
+        <input type="number" id="interestRate" min="0" required>
+      </div>
+      <div class="form-group">
+        <label for="loanTerm">Loan Term (Years):</label>
+        <input type="number" id="loanTerm" min="0" required>
+      </div>
+      <button onclick="calculateLoan()">Calculate</button>
+    </div>
+    <div id="loanResult" class="calculator-result"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Financial Advisory Service. All rights reserved.</p>
+  </div>
+</footer>
+<script src="./scripts/scripts.js"></script>
+<script src="./scripts/calculator.js"></script>
+</body>
+</html>

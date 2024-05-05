@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Financial Advisory Service</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="container">
+          <h1 class="logo">Financial Advisory Service</h1>
+          <div class="menu-toggle">&#9776;</div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Calculators.html">Calculator</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./FreeConsultation.html">Free Consultation</a></li>
+          </ul>
+        </div>
+      </nav>
+</header>
+
+<section class="contact">
+  <div class="container-contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or inquiry? Fill out the form below, and we'll get back to you as soon as possible.</p>
+    <form id="contactForm" class="contact-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <div id="successMessage" class="success-message"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Financial Advisory Service. All rights reserved.</p>
+  </div>
+</footer>
+<script src="./scripts/scripts.js"></script>
+<script src="./scripts/contact.js"></script>
+</body>
+</html>
